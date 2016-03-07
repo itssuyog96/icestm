@@ -78,18 +78,63 @@
                 <div class="row">
                     <div class="action">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <h1 class="title">Application</h1>                         
+                            <h1 class="title">Conference Feedback</h1>                         
                         </div>                        
                     </div>
                 </div>
             </div>
         </div>
    </section>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding-all">
-        
+   <br><br>
             <div class="data-form">
-                <form action="application.html" method="post">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding-all ">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                Authors (between 1 and 3):
-                                <input type="number" name="quantity" min="1" max="3">
+                        
+                        <form action="#">
+                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 ">
+                                <label for="inputname" class="control-label col-xs-2">Name</label>
+                                    <div class="form-group">
+                                        <i class="fa fa-user"></i>
+                                        <input type="text" name="name" align="center" class="form-control" required="required" placeholder="Name">
+                                    </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 ">        
+                                <label for="inputemail" class="control-label col-xs-2">Email</label>
+                                    <div class="form-group">
+                                        <i class="fa fa-envelope-o"></i>
+                                        <input type="email" name="email" align="center" class="form-control" required="required" placeholder="Email Id">
+                                    </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 ">        
+                                <label for="inputno" class="control-label col-xs-3">Telephone</label>
+                                    <div class="form-group">
+                                        <i class="fa fa-phone"></i>
+                                        <input type="tel" name="tel" align="center" class="form-control" required="required" placeholder="Phone Number">
+                                    </div>
+                            </div>   
+                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 ">     
+                                <label for="inputaddress" class="control-label col-xs-3">Address</label>
+                                    <div class="form-group">
+                                        <i class="fa fa-home"></i>
+                                        <textarea name="add" id="add"  align="center" required="required" class="form-control" rows="4" placeholder="Address"></textarea>
+                                    </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 ">        
+                                <label for="inputcomm" class="control-label col-xs-3">Comments</label>
+                                    <div class="form-group">
+                                        <i class="fa fa-comments"></i>
+                                        <textarea name="message" id="message" align="center" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
+                                    </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">                        
+                                <div class="form-group">
+                                    <input type="submit" name="submit" class="btn btn-submit" value="Submit" onclick="Thank You for your Feedback">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
+   
