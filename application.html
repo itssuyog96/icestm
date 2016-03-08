@@ -65,8 +65,8 @@ function getOption() {
                         <li class="active"><a href="index.html">Home</a></li>
                         <li class="dropdown"><a href="#">Conference <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
-                                <li><a href="coming-soon.html">Topics to be covered</a></li>
-                                <li><a href="coming-soon.html">Proffessional Bodies</a></li>
+                                <li><a href="topics.html">Topics to be covered</a></li>
+                                <li><a href="professional.html">Proffessional Bodies</a></li>
                                 <li><a href="coming-soon.html">Journals</a></li>
                                <!-- <li><a href="pricing.html">Pricing</a></li>
                                 <li><a href="contact.html">Contact us</a></li>
@@ -124,10 +124,11 @@ function getOption() {
         </div>
    </section>
    <br><br>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding-all">
-        
-            <div class="data-form">
-                <form action="#" method="post">
+    <div class="container">
+                <div class="row">
+                    <div class="action">
+                        <div class="col-sm-6">
+               <form action="#" method="post">
 
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">     
                         <label for="inputDesig" class="control-label col-xs-5">Designation</label>
@@ -138,9 +139,9 @@ function getOption() {
                             </div>         
                     </div>
                     <div class="row">
-                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                           <p id="app"></p>
-                                    <label for="inputauth" class="control-label col-xs-3">Authors</label>
+                                    <label for="inputauth" class="control-label col-xs-4">Authors</label>
                                     <select id="mySelect" value="auth">
                                             <option>1</option>
                                             <option>2</option>
@@ -151,12 +152,12 @@ function getOption() {
                    </div>
                     <form method="POST" action="imgpath.cgi" enctype="multipart/form-data">             
                                 <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
-                                    <label>Image</label>
+                                    <span><span><label>Image</label></span></span>
                                     <div class="row">
                                         
-                                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                 <input type="hidden" name="type" value="Browse">
-                                                <input type="file" name="imgpath">
+                                                <input type="file" name="imgpath"><br>
                                             </div>
                                     </div>
                                 </div>
@@ -169,7 +170,7 @@ function getOption() {
                                 <input type="radio" name="gender" value="other"> Other
                             </div>         
                     </div>
-                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">     
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">     
                         <label for="inputaddress" class="control-label col-xs-5">Address</label>
                             <div class="form-group">
                                 
@@ -217,9 +218,12 @@ function getOption() {
                             var x = document.getElementById("myFile");    
                     }
                     </script>
-                    <p>Click to upload your Documents(PDF/DOC/DOCX)</p>
-                    <input type="file" id="myFile" >
-
+                  <!--  <p>Click to upload your Documents(PDF/DOC/DOCX)</p>-->
+                    <input type="file" id="myFile" ><br><br><br>
+</div>
+</div>
+</div>
+</div>
 
 
     <footer id="footer">
